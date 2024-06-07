@@ -1,0 +1,338 @@
+body {
+    margin: 0px;
+    position: relative;
+}
+
+/* ################################ header ################################ */
+
+header {
+    background-color: #485176;
+    padding: 10px 0px 0px 0px;
+    width: 100%;
+    max-width: 100%;
+}
+
+header img {
+    margin-left: 15px;
+    height: 75px;
+    width: 75px;
+    display: inline-block;
+}
+
+header div, header nav {
+    height: 90px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+header nav ul{
+    width: 100%;
+    max-width: calc(100% - 105px);
+    display: flex;
+    justify-content: center;
+}
+
+header nav li {
+    width: 250px;
+    display: inline-block;
+    background: #98B06F;
+    text-align: center;
+    padding: 5px 0;
+    margin-right: 6%;
+    color: white;
+    font-size: 24px;
+    font-family: Roboto;
+}
+
+header .langue {
+    height: 75px;
+    background-color: #98B06F;
+}
+
+header .langue img{
+    margin-left: 2%;
+    height: 35px;
+    width: 35px;
+    position: flex;
+    display: inline-block;
+}
+
+header .langue a{
+    font-size: 24px;
+    font-family : Roboto;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/* ################################ ################################ */
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 48px;
+}
+
+h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 32px;
+    color: white;
+}
+
+p , ol {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    color: white;
+}
+
+div {
+    display: block;
+}
+
+.block-de-text {
+    max-width: 450px;
+    height: 530px;
+    background-color: #485176;
+}
+
+.block-de-text p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.block-d-image img {
+    position: relative;
+    width: 100%;
+    height: 530px;
+}
+
+.article-texte-a-gauche , .article-texte-a-droite {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center; 
+    width: auto;
+    height: 530px;
+}
+
+
+.article-texte-a-gauche .block-d-image img {
+    margin-right: auto;
+    margin-left: 25px;
+}
+
+.article-texte-a-droite .block-d-image img {
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.ligne-de-separation {
+    height: 5px;
+    width: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #485176;
+}
+
+.plus-de-photo img {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    display: flex;
+    max-width: 720px;
+} 
+
+.article-texte-a-droite .block-de-text {
+    margin-left: 25px;
+}
+
+/*************************************** CSS pour la carte google map page info vietnam **********************/
+
+iframe{
+    margin: 100px;
+    position: flex;
+}
+
+/* ################################ Footer ################################ */
+
+footer {
+    height: 131px;
+    background-color: #485176;
+    margin-top: 50px;
+    align-items: center;
+}
+
+footer nav {
+    margin-left: 20px;
+    height: 50px;
+    display: flex;
+    width: 100%;
+
+}
+
+footer nav ul{
+    background: #98B06F;
+    width: 200px;
+    height: 70px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+footer nav ul a {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: Roboto;
+}
+
+footer img {
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 50px;
+    zoom: 60%;
+    display: block;
+    padding-top: -150px;
+}
+
+/* ################################ ################################ */
+
+@media only screen
+	and (max-device-width : 900px)
+	and (orientation : portrait) {
+
+        .article-texte-a-gauche , .article-texte-a-droite {
+
+            height: 400px;
+        
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            width: 90%;
+            height: auto;
+            flex-direction: column;
+        }
+
+        .block-de-text {
+            height: 530px;
+            background-color: #485176;
+            max-width: 700px;
+            width: 100%;
+            order : 2;
+        }
+
+        .article-texte-a-droite .block-de-text {
+            margin-left: 0px;
+        }
+
+        .article-texte-a-gauche .block-d-image img , .article-texte-a-droite .block-d-image img{
+            margin-left: 0;
+            margin-right: 0;
+
+            position: relative;
+            width: 100%;
+            height: auto;
+            flex-direction: column;
+        }
+
+        .plus-de-photo img {
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            width: 90%;
+            height: auto;
+            flex-direction: column;
+        } 
+
+        header nav ul::before {
+            content: url(../img/divers/Menu_hamburger.png);
+            float: right;
+            margin-right: 15px;
+        }
+
+        header nav {
+            height: 90px;
+            width: 100%;
+            align-items: center;
+        }
+        
+        header nav ul li{
+            display:none;
+        }
+
+        header nav ul:hover {
+            height: 400px;
+        }
+
+        header  nav ul:hover li{
+            display:block;
+            text-align:center;
+            margin-top:40px;
+            width: 300px;
+        }
+
+        header nav:hover{
+            height: 500px;
+        }
+
+        header nav ::after{
+            height: 500px;
+
+        
+
+        }
+        header nav ul li{
+                display:block;
+                text-align:center;
+                margin-top:10px;
+                width: 300px;
+            }
+
+        header nav ul{
+            width: 100%;
+            max-width: calc(100% - 105px);
+            display: block;
+        }
+        
+        header nav li {
+            width: 250px;
+
+            background: #98B06F;
+            text-align: center;
+            padding: 5px 0;
+            margin-right: 6%;
+            color: white;
+            font-size: 24px;
+            font-family: Roboto;
+        }
+        
+        .map {
+            zoom: 20%;
+            margin-right: 20px;
+        }
+        
+        iframe{
+            position: flex;
+            width: 100%;
+        }
+
+        footer img{
+            zoom: 150%;
+        }
+       
+    
+}
