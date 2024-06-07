@@ -1,0 +1,516 @@
+body {
+    margin: 0px;
+    position: relative;
+}
+
+/* ################################ header ################################ */
+
+header {
+    background-color: #485176;
+    padding: 10px 0px 0px 0px;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* ################################ balise nav ################################ */
+/* Ici, on défini le nav et le tableau qui serat utiliser pour naviguer entre les pages */
+
+header nav img {
+    margin-left: 15px;
+    height: 75px;
+    width: 75px;
+    display: inline-block;
+}
+
+header div, header nav {
+    height: 90px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+header nav ul{
+    width: 100%;
+    max-width: calc(100% - 105px);
+    display: flex;
+    justify-content: center;
+}
+
+header nav li {
+    width: 250px;
+    display: inline-block;
+    background: #98B06F;
+    text-align: center;
+    padding: 5px 0;
+    margin-right: 6%;
+    color: white;
+    font-size: 24px;
+    font-family: Roboto;
+}
+
+/* ################################ balise langue ################################ */
+/* ici on définit les propriétés de l'onglet langue, qui se trouvera en dessous du nav*/
+/* il permetra a l'utilisateur a changer la langue entre le français et l'anglais*/
+
+header .langue {
+    height: 75px;
+    background-color: #98B06F;
+}
+
+header .langue img{
+    margin-left: 2%;
+    height: 35px;
+    width: 35px;
+    position: flex;
+    display: inline-block;
+}
+
+header .langue a{
+    font-size: 24px;
+    font-family : Roboto;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/* ################################ ################################ */
+/* ################################ Les polies d'écritures ################################ */
+/* On commence par définir la taille et les polices décriture, puisque elles seront commune */
+/* a chaque balise du body*/
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 48px;
+}
+
+h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 32px;
+    color: white;
+}
+
+.carte-interactive h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 32px;
+    color: black;
+}
+
+p , ol {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    color: white;
+}
+
+/* ################################ ################################ */
+
+div {
+    display: block;
+}
+
+/* ################################ block de texte et block d'image ################################ */
+/* ici on définit les propriétés utiliser par les deux blocks d'article, "article-texte-a-gauche" et 
+"article-texte-a-droite" on commencera d'abord par les propriété commune ou des balises qu'elles partagent
+pour ensuite aller dans les détailles*/
+
+.block-de-text {
+    max-width: 450px;
+    height: 530px;
+    background-color: #485176;
+}
+
+.block-de-text p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.block-d-image img {
+    position: relative;
+    width: 100%;
+    height: 530px;
+}
+
+.article-texte-a-gauche , .article-texte-a-droite {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center; 
+    width: auto;
+    height: 530px;
+}
+
+
+.article-texte-a-gauche .block-d-image img {
+    margin-right: auto;
+    margin-left: 25px;
+}
+
+.article-texte-a-droite .block-d-image img {
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.plus-de-photo img {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    display: flex;
+    max-width: 720px;
+} 
+
+.article-texte-a-droite .block-de-text {
+    margin-left: 25px;
+}
+
+/* ################################ ligne de separation ################################ */
+/* on définit les propriétés de ligne-de-separation qui servira a séparer les différents articles et photo  */
+
+.ligne-de-separation {
+    height: 5px;
+    width: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #485176;
+}
+
+/* ################################ ################################ */
+/* ################################ presentation ################################ */
+
+.presentation {
+    background-image: url('../img/photo vietnam flouter/Design_sans_titre.png');
+    background-clip: border-box;
+    background-size: cover;
+
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center; 
+    width: auto;
+    height: 800px;
+}
+
+.presentation div, .presentation img {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentation div {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+
+    max-width: 500px;
+    background-color: #485176;
+}
+
+.presentation div p {
+    width: 500px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.presentation div div a {
+    width: 415px;
+    height: 80px;
+    background-color: #98B06F;
+    margin-top: auto;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 32px;
+    font-family: Roboto;
+    text-align: center;
+}
+
+.presentation img {
+    height: 300px;
+    width: 300px;
+    margin-left: 150px;
+}
+
+/* ################################ légende ################################ */
+
+.legende ul {
+    width: 100%;
+    max-width: calc(100% - 105px);
+    justify-content: center;
+}
+
+.legende li {
+    width: 250px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 8px;
+    font-family: Roboto;
+}
+
+.legende ul li img {
+    display: flex;
+    justify-content: center;
+    width: 40px;
+}
+
+/* ################################ ################################ */
+/* ################################ map ################################ */
+
+.map img {
+    zoom: 40%;
+}
+
+/* ################################ ################################ */
+/* ################################ Footer ################################ */
+
+footer {
+    height: 131px;
+    background-color: #485176;
+    margin-top: 50px;
+    align-items: center;
+}
+
+footer nav {
+    margin-left: 20px;
+    height: 50px;
+    display: flex;
+    width: 100%;
+
+}
+
+footer nav ul{
+    background: #98B06F;
+    width: 200px;
+    height: 70px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+footer nav ul a {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: Roboto;
+}
+
+footer img {
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 50px;
+    zoom: 60%;
+    display: block;
+    padding-top: -150px;
+}
+/* ################################ ################################ */
+
+@media only screen
+	and (max-device-width : 900px)
+	and (orientation : portrait) {
+
+        /* ################################ les articles en responsive################################ */
+
+        .article-texte-a-gauche , .article-texte-a-droite {
+
+            height: 400px;
+        
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            width: 90%;
+            height: auto;
+            flex-direction: column;
+        }
+
+        .block-de-text {
+            height: 800px;
+            background-color: #485176;
+            max-width: 700px;
+            width: 100%;
+            order : 2;
+        }
+
+        .article-texte-a-droite .block-de-text {
+            margin-left: 0px;
+        }
+
+        .article-texte-a-gauche .block-d-image img , .article-texte-a-droite .block-d-image img{
+            margin-left: 0;
+            margin-right: 0;
+
+            position: relative;
+            width: 100%;
+            height: auto;
+            flex-direction: column;
+        }
+
+        .plus-de-photo img {
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            width: 90%;
+            height: auto;
+            flex-direction: column;
+        } 
+
+        /* ################################ ################################ */
+        /* ################################ creation du menu burger ################################ */
+        
+
+        header nav ul::before {
+            content: url(../img/divers/Menu_hamburger.png);
+            float: right;
+            margin-right: 15px;
+        }
+
+        header nav {
+            height: 90px;
+            width: 100%;
+            align-items: center;
+        }
+        
+        header nav ul li{
+            display:none;
+        }
+
+        header nav ul:hover {
+            height: 400px;
+        }
+
+        header nav ul:hover li{
+            display:block;
+            text-align:center;
+            margin-top:40px;
+            width: 300px;
+        }
+
+        header nav:hover{
+            height: 500px;
+        }
+
+        header nav ::after{
+            height: 500px;
+
+            
+        }
+
+        header nav ul{
+            width: 100%;
+            max-width: calc(100% - 105px);
+            display: block;
+        }
+        
+        header nav li {
+            width: 250px;
+            background: #98B06F;
+            text-align: center;
+            padding: 5px 0;
+            margin-right: 6%;
+            color: white;
+            font-size: 24px;
+            font-family: Roboto;
+        }
+
+        /* ################################ ################################ */
+        /* ################################ la légende ################################ */
+        /* On réorganise la légende pour qu'elle s'affiche en block*/
+        
+        .legende ul {
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px 10px 10px 10px;
+            width: 100%;
+            max-width: calc(100% - 105px);
+            display: block;
+            justify-content: center;
+        }
+
+        .legende li {
+            width: 250px;
+            display: inline-block;
+            text-align: center;
+            color: white;
+            padding: 5px 0;
+            margin-right: 6%;
+            font-size: 24px;
+            font-family: Roboto;
+        }
+
+        .legende ul li img {
+            display: flex;
+            justify-content: center;
+            width: 40px;
+        }
+
+        /* ################################ ################################ */
+        /* ################################ presentation en responsive ################################ */
+        /* on réorganise pour que la présentation s'affiche correctement et de la bonne taille*/
+
+        .presentation {
+            position: relative;
+            height: auto;
+            flex-direction: column;
+        }
+
+        .presentation div {
+            max-width: 250px;
+            margin-bottom: 25px;
+            order : 2;
+        }
+
+        .presentation div div {
+            max-width: 200px;
+
+        }
+
+        .presentation img {
+            height: 250px;
+            width: 250px;
+            margin-left: 0;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+
+        /* ################################ ################################ */
+        /* ################################ map ################################ */
+        /* on évite de redimentionner la carte pour que les pings sur celles-ci soit 
+        toujours interactif*/
+
+        .map img {
+            zoom: 15%;
+        }
+
+        /* ################################ ################################ */
+
+        iframe{
+            position: flex;
+        }
+        footer img{
+            zoom: 150%;
+        }
+
+        footer nav ul li{
+            font-size: 12px;
+            text-align: center;
+        }
+
+    }
