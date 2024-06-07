@@ -3,13 +3,17 @@
 ## Projet
 
 Ce projet a été réalisé dans le cadre d'une SAE (situation d'apprentisage et d'évaluation) durant ma 1ère année de BUT Informatique (2023-2024).
+
 Version : 1.0
+
 Auteur : BEIGNON Arthur, DUSSANIER Léothen & COTAR Clément (TPB - BUT1) 
 
 ## Comment sa marche
 
 Pour pouvoir lancer le porjet, il suffit de télécharger les fichiers qui se trouve dans la branche "main", et de lancer le fichier qui s'appelle index.html dans un navigateur. 
+
 Vous pouvez faire un clic droit sur le fichier pour faire un "Ouvrir Avec ..." et choisir votre navigateur.
+
 Pour finir, il suffit juste de passer un bon moment à la découverte du Vietnam !
 
 ### Bibliothèque obligatoire pour le bon fonctionnement
