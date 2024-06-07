@@ -8,14 +8,9 @@ Auteur : BEIGNON Arthur, DUSSANIER Léothen & COTAR Clément (TPB - BUT1)
 
 ## Comment sa marche
 
-
-Le fonctionnement de la première application est d'implementer un plan en choississant le nombre de case permmetant d'y placer différent produit.
-Lorsqu'elle clique à un endroit du plan une fenêtre s'ouvre afin que l'utilisateur entre les info concernant ce plan.
-
-Par la suite l'utilisateur peut ouvrir le plan et modifier le nombre de case ou modifier le contenu de ces cases les coordonnées se mettent dans 
-un fichier Json ou s'on inscrit les différent produit.
-
-L'appli B appel à l'algorithme de Dijkstra pour déterminer le chemin le plus court et donc créer un chemin dans une liste de produits choisi
+Pour pouvoir lancer le porjet, il suffit de télécharger les fichiers qui se trouve dans la branche "main", et de lancer le fichier qui s'appelle index.html dans un navigateur. 
+Vous pouvez faire un clic droit sur le fichier pour faire un "Ouvrir Avec ..." et choisir votre navigateur.
+Pour finir, il suffit juste de passer un bon moment à la découverte du Vietnam !
 
 ### Bibliothèque obligatoire pour le bon fonctionnement
 
