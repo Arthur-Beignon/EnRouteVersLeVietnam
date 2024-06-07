@@ -16,7 +16,7 @@ Vous pouvez faire un clic droit sur le fichier pour faire un "Ouvrir Avec..." et
 
 Pour finir, il suffit juste de passer un bon moment à la découverte du Vietnam !
 
-### Bibliothèque obligatoire pour le bon fonctionnement
+## Bibliothèque obligatoire pour le bon fonctionnement
 
 Pour le bon fonctionnement du site, il suffit d'avoir un navigateur internet récent, qui fonctionne, et une connexion internet.
 Je vous recommande d'utiliser Google Chrome pour un fonctionnement optimal.
